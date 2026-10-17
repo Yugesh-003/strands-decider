@@ -1,0 +1,162 @@
+[
+  {
+    "ticket_id": "T001",
+    "customer_id": "C001",
+    "subject": "Wrong charge on my invoice",
+    "body": "I was charged $49.99 twice this month. My invoice shows two identical line items for the same subscription. Please refund the duplicate charge immediately.",
+    "expected_team": "billing",
+    "expected_urgency": "high"
+  },
+  {
+    "ticket_id": "T002",
+    "customer_id": "C004",
+    "subject": "Someone hacked my account",
+    "body": "I cannot access my account. I received an email saying my password was changed but I did not do it. Someone has taken over my account. I need immediate help.",
+    "expected_team": "security",
+    "expected_urgency": "critical"
+  },
+  {
+    "ticket_id": "T003",
+    "customer_id": "C007",
+    "subject": "Dashboard not loading",
+    "body": "The dashboard has been showing a spinner for the past hour. I have tried clearing cache and using a different browser. Nothing works. This is blocking my team.",
+    "expected_team": "technical",
+    "expected_urgency": "high"
+  },
+  {
+    "ticket_id": "T004",
+    "customer_id": "C002",
+    "subject": "Cannot log into my account",
+    "body": "I forgot my password and reset it, but the new password is still not working. I am locked out of my account. Please help me regain access.",
+    "expected_team": "account",
+    "expected_urgency": "medium"
+  },
+  {
+    "ticket_id": "T005",
+    "customer_id": "C005",
+    "subject": "How do I export my data?",
+    "body": "I would like to export all my project data as a CSV file. Could you point me to the right documentation or tell me how to do this? No rush.",
+    "expected_team": "general",
+    "expected_urgency": "low"
+  },
+  {
+    "ticket_id": "T006",
+    "customer_id": "C006",
+    "subject": "Refund not received",
+    "body": "I requested a refund two weeks ago and was told it would arrive in 5-7 business days. It has been 14 days and I still have not received anything. My order number is ORD-8821.",
+    "expected_team": "billing",
+    "expected_urgency": "high"
+  },
+  {
+    "ticket_id": "T007",
+    "customer_id": "C009",
+    "subject": "Account email changed without my knowledge",
+    "body": "I noticed my account email was changed to an address I do not recognise. I did not make this change. I am worried my account has been compromised. Please lock it immediately.",
+    "expected_team": "security",
+    "expected_urgency": "critical"
+  },
+  {
+    "ticket_id": "T008",
+    "customer_id": "C003",
+    "subject": "API returning 500 errors",
+    "body": "Our integration is getting 500 Internal Server Error on the /v2/reports endpoint since this morning. This is breaking our production pipeline. Urgent fix needed.",
+    "expected_team": "technical",
+    "expected_urgency": "critical"
+  },
+  {
+    "ticket_id": "T009",
+    "customer_id": "C010",
+    "subject": "Need help setting up SSO",
+    "body": "We are trying to set up SAML SSO for our organisation but are stuck on the attribute mapping step. Is there a guide or can someone walk us through it?",
+    "expected_team": "technical",
+    "expected_urgency": "medium"
+  },
+  {
+    "ticket_id": "T010",
+    "customer_id": "C008",
+    "subject": "Questions about enterprise pricing",
+    "body": "We are considering upgrading to the Enterprise plan. Could you send me details about the pricing tiers, what is included, and whether there is an annual discount?",
+    "expected_team": "general",
+    "expected_urgency": "low"
+  },
+  {
+    "ticket_id": "T011",
+    "customer_id": "C002",
+    "subject": "Subscription cancelled without notice",
+    "body": "My subscription was cancelled and I did not request it. I am still being shown ads as if I am on the free plan. Was I charged for a cancellation? I need this fixed today.",
+    "expected_team": "billing",
+    "expected_urgency": "high"
+  },
+  {
+    "ticket_id": "T012",
+    "customer_id": "C009",
+    "subject": "Suspicious login from another country",
+    "body": "I got a security alert that someone logged into my account from a location I have never been to. I have changed my password but I am concerned the attacker still has access.",
+    "expected_team": "security",
+    "expected_urgency": "high"
+  },
+  {
+    "ticket_id": "T013",
+    "customer_id": "C007",
+    "subject": "CSV export crashes on large files",
+    "body": "When I try to export more than 10,000 rows as CSV the page freezes and eventually shows an error. Smaller exports work fine. Can this be fixed?",
+    "expected_team": "technical",
+    "expected_urgency": "medium"
+  },
+  {
+    "ticket_id": "T014",
+    "customer_id": "C004",
+    "subject": "Update my billing address",
+    "body": "I recently moved and need to update the billing address on my account. The address on the invoices is my old one. How do I change it in settings?",
+    "expected_team": "account",
+    "expected_urgency": "low"
+  },
+  {
+    "ticket_id": "T015",
+    "customer_id": "C001",
+    "subject": "How do I add a team member?",
+    "body": "I want to invite a colleague to my workspace. I looked in settings but could not find where to send an invite. Could you guide me?",
+    "expected_team": "general",
+    "expected_urgency": "low"
+  },
+  {
+    "ticket_id": "T016",
+    "customer_id": "C006",
+    "subject": "Charged after cancelling",
+    "body": "I cancelled my subscription on the 1st but was still charged on the 3rd. I have a cancellation confirmation email. I want a full refund for this charge.",
+    "expected_team": "billing",
+    "expected_urgency": "high"
+  },
+  {
+    "ticket_id": "T017",
+    "customer_id": "C003",
+    "subject": "Webhook not firing for new events",
+    "body": "We set up a webhook endpoint but it has not received any events for the last 24 hours. The endpoint is live and returning 200. Something changed on your end.",
+    "expected_team": "technical",
+    "expected_urgency": "high"
+  },
+  {
+    "ticket_id": "T018",
+    "customer_id": "C005",
+    "subject": "Change account username",
+    "body": "I would like to change my username from my old email handle to my actual name. Is this possible and will it affect my login?",
+    "expected_team": "account",
+    "expected_urgency": "low"
+  },
+  {
+    "ticket_id": "T019",
+    "customer_id": "C010",
+    "subject": "Two-factor authentication not working",
+    "body": "My authenticator app codes are being rejected. I have synced the time on my phone. This is preventing my entire team from logging in. Urgent.",
+    "expected_team": "security",
+    "expected_urgency": "critical"
+  },
+  {
+    "ticket_id": "T020",
+    "customer_id": "C008",
+    "subject": "What integrations do you support?",
+    "body": "Before we commit to upgrading our plan I want to know which third-party tools you integrate with natively. Do you have a Zapier or Slack integration?",
+    "expected_team": "general",
+    "expected_urgency": "low"
+  }
+]

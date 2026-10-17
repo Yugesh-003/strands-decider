@@ -1,0 +1,416 @@
+{
+ "decider_model": "strands-decider-2b-hobson-v19",
+ "rows": [
+  {
+   "i": 0,
+   "expected": {
+    "team": "security",
+    "urgency": "critical"
+   },
+   "decider": {
+    "team": {
+     "label": "technical",
+     "confidence": 0.5228
+    },
+    "urgency": {
+     "label": "critical",
+     "confidence": 0.3283
+    }
+   },
+   "decider_ms": 3550.589000005857,
+   "decider_server_ms": 2627.5,
+   "llm": {
+    "team": {
+     "label": "technical",
+     "confidence": 0.9
+    },
+    "urgency": {
+     "label": "high",
+     "confidence": 0.85
+    }
+   },
+   "llm_ms": 17288.97010000219,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 1,
+   "expected": {
+    "team": "general",
+    "urgency": "low"
+   },
+   "decider": {
+    "team": {
+     "label": "technical",
+     "confidence": 0.528
+    },
+    "urgency": {
+     "label": "medium",
+     "confidence": 0.298
+    }
+   },
+   "decider_ms": 3169.6054999993066,
+   "decider_server_ms": 2494.4,
+   "llm": {
+    "team": {
+     "label": "general",
+     "confidence": 0.95
+    },
+    "urgency": {
+     "label": "low",
+     "confidence": 0.85
+    }
+   },
+   "llm_ms": 15605.756799996016,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 2,
+   "expected": {
+    "team": "security",
+    "urgency": "critical"
+   },
+   "decider": {
+    "team": {
+     "label": "security",
+     "confidence": 0.6759
+    },
+    "urgency": {
+     "label": "critical",
+     "confidence": 0.3536
+    }
+   },
+   "decider_ms": 3093.2556000043405,
+   "decider_server_ms": 2432.6,
+   "llm": {
+    "team": {
+     "label": "account",
+     "confidence": 0.9
+    },
+    "urgency": {
+     "label": "high",
+     "confidence": 0.85
+    }
+   },
+   "llm_ms": 15498.446899997361,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 3,
+   "expected": {
+    "team": "billing",
+    "urgency": "high"
+   },
+   "decider": {
+    "team": {
+     "label": "billing",
+     "confidence": 0.9096
+    },
+    "urgency": {
+     "label": "high",
+     "confidence": 0.317
+    }
+   },
+   "decider_ms": 3120.9144000022206,
+   "decider_server_ms": 2453.7,
+   "llm": {
+    "team": {
+     "label": "billing",
+     "confidence": 1.0
+    },
+    "urgency": {
+     "label": "high",
+     "confidence": 0.9
+    }
+   },
+   "llm_ms": 15261.959199997364,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 4,
+   "expected": {
+    "team": "technical",
+    "urgency": "medium"
+   },
+   "decider": {
+    "team": {
+     "label": "technical",
+     "confidence": 0.9667
+    },
+    "urgency": {
+     "label": "critical",
+     "confidence": 0.3318
+    }
+   },
+   "decider_ms": 3092.2993999993196,
+   "decider_server_ms": 2454.3,
+   "llm": {
+    "team": {
+     "label": "technical",
+     "confidence": 1.0
+    },
+    "urgency": {
+     "label": "high",
+     "confidence": 0.9
+    }
+   },
+   "llm_ms": 15458.072800000082,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 5,
+   "expected": {
+    "team": "account",
+    "urgency": "low"
+   },
+   "decider": {
+    "team": {
+     "label": "account",
+     "confidence": 0.7281
+    },
+    "urgency": {
+     "label": "medium",
+     "confidence": 0.3633
+    }
+   },
+   "decider_ms": 3256.581499997992,
+   "decider_server_ms": 2437.4,
+   "llm": {
+    "team": {
+     "label": "account",
+     "confidence": 1.0
+    },
+    "urgency": {
+     "label": "low",
+     "confidence": 1.0
+    }
+   },
+   "llm_ms": 15540.081799998006,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 6,
+   "expected": {
+    "team": "general",
+    "urgency": "low"
+   },
+   "decider": {
+    "team": {
+     "label": "general",
+     "confidence": 0.5405
+    },
+    "urgency": {
+     "label": "medium",
+     "confidence": 0.3257
+    }
+   },
+   "decider_ms": 3125.4363999978523,
+   "decider_server_ms": 2448.9,
+   "llm": {
+    "team": {
+     "label": "general",
+     "confidence": 0.95
+    },
+    "urgency": {
+     "label": "low",
+     "confidence": 0.9
+    }
+   },
+   "llm_ms": 15285.43119999813,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 7,
+   "expected": {
+    "team": "security",
+    "urgency": "high"
+   },
+   "decider": {
+    "team": {
+     "label": "security",
+     "confidence": 0.884
+    },
+    "urgency": {
+     "label": "high",
+     "confidence": 0.3721
+    }
+   },
+   "decider_ms": 3242.456100000709,
+   "decider_server_ms": 2503.7,
+   "llm": {
+    "team": {
+     "label": "security",
+     "confidence": 1.0
+    },
+    "urgency": {
+     "label": "critical",
+     "confidence": 1.0
+    }
+   },
+   "llm_ms": 15163.754700006393,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 8,
+   "expected": {
+    "team": "billing",
+    "urgency": "high"
+   },
+   "decider": {
+    "team": {
+     "label": "billing",
+     "confidence": 0.9043
+    },
+    "urgency": {
+     "label": "high",
+     "confidence": 0.3216
+    }
+   },
+   "decider_ms": 3314.333499998611,
+   "decider_server_ms": 2526.7,
+   "llm": {
+    "team": {
+     "label": "billing",
+     "confidence": 1.0
+    },
+    "urgency": {
+     "label": "medium",
+     "confidence": 0.9
+    }
+   },
+   "llm_ms": 15142.963400001463,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 9,
+   "expected": {
+    "team": "technical",
+    "urgency": "high"
+   },
+   "decider": {
+    "team": {
+     "label": "technical",
+     "confidence": 0.9417
+    },
+    "urgency": {
+     "label": "high",
+     "confidence": 0.2896
+    }
+   },
+   "decider_ms": 3047.7867999943555,
+   "decider_server_ms": 2424.6,
+   "llm": {
+    "team": {
+     "label": "technical",
+     "confidence": 1.0
+    },
+    "urgency": {
+     "label": "high",
+     "confidence": 0.9
+    }
+   },
+   "llm_ms": 15085.904300001857,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 10,
+   "expected": {
+    "team": "account",
+    "urgency": "high"
+   },
+   "decider": {
+    "team": {
+     "label": "account",
+     "confidence": 0.5972
+    },
+    "urgency": {
+     "label": "high",
+     "confidence": 0.3118
+    }
+   },
+   "decider_ms": 3147.5806000016746,
+   "decider_server_ms": 2466.4,
+   "llm": {
+    "team": {
+     "label": "account",
+     "confidence": 0.95
+    },
+    "urgency": {
+     "label": "high",
+     "confidence": 0.85
+    }
+   },
+   "llm_ms": 15793.984700001602,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 11,
+   "expected": {
+    "team": "general",
+    "urgency": "low"
+   },
+   "decider": {
+    "team": {
+     "label": "general",
+     "confidence": 0.373
+    },
+    "urgency": {
+     "label": "high",
+     "confidence": 0.3182
+    }
+   },
+   "decider_ms": 3211.276900001394,
+   "decider_server_ms": 2496.3,
+   "llm": {
+    "team": {
+     "label": "general",
+     "confidence": 0.9
+    },
+    "urgency": {
+     "label": "low",
+     "confidence": 0.8
+    }
+   },
+   "llm_ms": 15467.149199997948,
+   "llm_cost": 0.0
+  }
+ ],
+ "summary": {
+  "decider": {
+   "accuracy": 0.7083,
+   "decisions": 24,
+   "per_question": {
+    "team": 0.8333,
+    "urgency": 0.5833
+   },
+   "latency_p50_ms": 3169.6,
+   "latency_p95_ms": 3314.3,
+   "usd_per_1k_decisions": 0.035,
+   "confident_share": 0.25,
+   "accuracy_when_confident": 1.0,
+   "sent_to_human_at_threshold": 18
+  },
+  "llm": {
+   "accuracy": 0.7083,
+   "decisions": 24,
+   "per_question": {
+    "team": 0.8333,
+    "urgency": 0.5833
+   },
+   "latency_p50_ms": 15467.1,
+   "latency_p95_ms": 15794.0,
+   "usd_per_1k_decisions": 0.0,
+   "confident_share": 1.0,
+   "accuracy_when_confident": 0.7083,
+   "sent_to_human_at_threshold": 0
+  },
+  "speedup_p50": 4.88
+ },
+ "threshold": 0.7,
+ "llm_model": "qwen3.5-4b",
+ "llm_provider": "ugmdu",
+ "llm_where": "AWS User Group Madurai cloud (qwen3.5-4b)",
+ "decider_url": "https://da25tnxy06gjk.cloudfront.net",
+ "decider_mode": "ugmdu",
+ "ran_at": 1792194356.9122381,
+ "split": "test"
+}

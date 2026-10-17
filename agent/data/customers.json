@@ -1,0 +1,82 @@
+[
+  {
+    "customer_id": "C001",
+    "name": "Alice Johnson",
+    "email": "alice.johnson@example.com",
+    "account_status": "active",
+    "plan": "Premium",
+    "recent_tickets": ["Billing discrepancy on March invoice", "Feature request: dark mode"]
+  },
+  {
+    "customer_id": "C002",
+    "name": "Bob Martinez",
+    "email": "bob.martinez@example.com",
+    "account_status": "suspended",
+    "plan": "Basic",
+    "recent_tickets": ["Payment failed twice", "Account locked after failed logins"]
+  },
+  {
+    "customer_id": "C003",
+    "name": "Carol Smith",
+    "email": "carol.smith@example.com",
+    "account_status": "active",
+    "plan": "Enterprise",
+    "recent_tickets": ["API rate limit exceeded", "Integration with Salesforce broken"]
+  },
+  {
+    "customer_id": "C004",
+    "name": "David Lee",
+    "email": "david.lee@example.com",
+    "account_status": "locked",
+    "plan": "Premium",
+    "recent_tickets": ["Cannot log in", "Suspicious login from unknown location"]
+  },
+  {
+    "customer_id": "C005",
+    "name": "Emma Wilson",
+    "email": "emma.wilson@example.com",
+    "account_status": "active",
+    "plan": "Basic",
+    "recent_tickets": ["How do I export my data?"]
+  },
+  {
+    "customer_id": "C006",
+    "name": "Frank Chen",
+    "email": "frank.chen@example.com",
+    "account_status": "active",
+    "plan": "Premium",
+    "recent_tickets": ["Charged twice for same month", "Refund still not received after 2 weeks"]
+  },
+  {
+    "customer_id": "C007",
+    "name": "Grace Patel",
+    "email": "grace.patel@example.com",
+    "account_status": "active",
+    "plan": "Enterprise",
+    "recent_tickets": ["Dashboard not loading", "CSV export crashes on large datasets"]
+  },
+  {
+    "customer_id": "C008",
+    "name": "Henry Okafor",
+    "email": "henry.okafor@example.com",
+    "account_status": "active",
+    "plan": "Basic",
+    "recent_tickets": ["Want to upgrade plan", "Questions about enterprise pricing"]
+  },
+  {
+    "customer_id": "C009",
+    "name": "Isla Thompson",
+    "email": "isla.thompson@example.com",
+    "account_status": "locked",
+    "plan": "Premium",
+    "recent_tickets": ["Email changed without my permission", "Someone is using my account"]
+  },
+  {
+    "customer_id": "C010",
+    "name": "James Kim",
+    "email": "james.kim@example.com",
+    "account_status": "active",
+    "plan": "Enterprise",
+    "recent_tickets": ["Webhook not firing", "Need help setting up SSO"]
+  }
+]

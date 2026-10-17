@@ -1,0 +1,4 @@
+# AgentCore features for TicketPilot
+# No Memory or Gateway needed — the tool-selection pattern and synthetic data are self-contained.
+memory: false
+gateway: false

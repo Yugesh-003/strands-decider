@@ -1,0 +1,35 @@
+# TicketPilot demo script — 6 turns covering all 5 teams and the key demo moment
+# Each turn: message (ticket text), narration (neutral voice-over for the video)
+
+turns:
+  - message: "Hi, I was charged $49.99 twice this month. My invoice shows two identical charges for
+      the same subscription. Please refund the duplicate. My ticket ID is T001."
+    narration: "A billing dispute. Watch the Decider panel — it classifies this as billing with
+      high confidence and high urgency, then routes it to the billing team."
+
+  - message: "The dashboard has been showing a loading spinner for the past hour. I have tried
+      clearing my browser cache and using Firefox instead of Chrome. Nothing works. This is
+      blocking my whole team."
+    narration: "A technical issue. The Decider scores urgency as high and picks the technical
+      team. The agent drafts a methodical first-response email."
+
+  - message: "I forgot my password and used the reset link, but the new password still isn't
+      working. I'm completely locked out of my account."
+    narration: "An account access request — not a security incident. The Decider distinguishes
+      account lockout from a compromised account and routes to the account team."
+
+  - message: "What integrations do you support? Specifically, is there a native Slack or Zapier
+      connection? No urgency, just planning."
+    narration: "A general enquiry. Low urgency, general team. The Decider routes it correctly
+      without escalation or customer lookup."
+
+  - message: "I cannot access my account and someone changed my email address without my
+      permission. I did not do this. Please help immediately."
+    narration: "The key demo moment. This looks like an account reset, but the Decider reads
+      'someone changed my email without permission' and routes it to security with critical
+      urgency. Watch the probability panel shift."
+
+  - message: "Our production API has been returning 500 errors on the /v2/reports endpoint for
+      the last two hours. This is breaking our data pipeline. We need an urgent fix."
+    narration: "A critical technical incident. The Decider scores it critical, the agent
+      escalates immediately and drafts an urgent response for the technical team."
